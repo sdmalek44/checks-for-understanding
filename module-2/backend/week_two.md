@@ -37,8 +37,8 @@ Now how would you find the owner of the team with an id of 4?
 `team.owner`  
 
 5. In a database that's holding students and teachers, what will be the relationship between students and teachers? Draw the schema diagram.  
--many to many
-
+-many to many  
+https://imgur.com/HLSu65l
 
 6. Define foreign key, primary key, and schema.  
 A foreign key is a key that relates to the primary key of another table. It allows you to link tables together to get what you want out of them.  Primary key is usually the id that your table automatically gives the rows as resources are created. A schema is a blueprint for all of the tables in your database. 
