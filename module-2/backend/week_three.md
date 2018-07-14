@@ -74,8 +74,10 @@ end
 furniture = {table: {height: 3, color: "red"}, purchased: true}
 ```
 What is the different between how you would return true vs returning 3?  
-16. What is inheritance?  
 to return true `furniture[:purchased]` and to return 3 `furniture[:table][:height]`  
+
+16. What is inheritance?  
+Inheritance is when methods are inherited by one class from another class.  
 
 ### Self Assessment:
 Choose One:
