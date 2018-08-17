@@ -3,10 +3,10 @@
 Some of these questions are from this week, some are from previous weeks, and some are new concepts. Try answering without research first. If you are not sure, take a guess but acknowledge that it's a guess (faking an answer in an interview without acknowledging it as a guess is a bad idea). Follow up with the necessary research to understand these concepts. These tend to be common themes during the job hunt and are worth having a solid understanding of.
 
 1. What is `json`, what does it stand for, and why is it important?  
-Json stands for javascript object notation. It can be used to convert data from an api into an ruby object.  
+Json stands for javascript object notation. It can be used to convert data from an api into an ruby object. Human readable and machine readable.  
 
 1. What kind of object is JSON in Ruby? How do we know it's JSON?  
-`JSON.parse()` turns json data into a hash. We know it is JSON because it is either an object with key value pairs with the keys being in parenthesis followed by a colon or an array of these objects. The json file comes in as a string.  
+The json file comes in as a string in ruby. `JSON.parse()` turns json data into a hash. We know it is JSON because it contains keys with double quotes followed by a colon.  
 
 1. What's an API?  
 API stands for application programming interface. It is a way of presenting data in a notation that is easily converted into many different programming languages and pulled into a database.  
@@ -15,7 +15,7 @@ API stands for application programming interface. It is a way of presenting data
 A restful API is one that follows typical route and controller conventions. In rails your controllers should only contain the conventional crud methods(show,index,create,update, etc.). The api should try to use the traditional route and namespacing conventions as much as possible.  
 
 1. What is an ORM, what does it stand for, and why is it helpful?  
-It stands for object relational model. It is helpful for converting rows in a table to objects in a programming language like ruby. Active Record is an ORM used for converting table rows to objects in ruby.  
+It stands for object relational model. It is helpful for converting rows in a database table to objects in a programming language like ruby. Active Record is an ORM used for converting table rows to objects in ruby.  
 
 1. How do you create a record in the following table in SQL? In Active Record?   
    (Users table with columns first_name, last_name, email, and age)  
